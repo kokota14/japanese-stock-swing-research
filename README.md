@@ -51,7 +51,7 @@ python verify_public_release.py
 4. Pythonは3.12以上を選び、Deployを実行します。
 
 公開に必要なファイルは、`streamlit_app.py`、`app_pages/`、
-`public_data.py`、`content_generator.py`、`data/public_snapshot.json`、
+`public_data.py`、`data/public_snapshot.json`、
 `requirements.txt`、`.streamlit/config.toml`です。
 
 ローカル専用の起動ファイル、ログ、仮想環境、DB、pickle、秘密設定は
@@ -60,7 +60,5 @@ python verify_public_release.py
 ## 現在の画面
 
 - 学習ダッシュボード
-- 週次レポート
+- 週次の検証記録
 - 検証方法
-
-週次レポートから、ブログ下書きと動画台本をダウンロードできます。

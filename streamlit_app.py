@@ -37,7 +37,7 @@ page = st.navigation(
         ),
         st.Page(
             "app_pages/weekly_report.py",
-            title="週次レポート",
+            title="週次の検証記録",
             icon=":material/article:",
         ),
         st.Page(
