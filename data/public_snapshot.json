@@ -1,0 +1,65 @@
+{
+  "updated_at": "2026-07-31 20:18",
+  "data_source": "Yahoo Finance（yfinance）",
+  "model_version": "公開版 0.2",
+  "market": {
+    "score": 20,
+    "judgment": "やや守り",
+    "cash_ratio": 65
+  },
+  "paper_portfolio": {
+    "initial_capital": 1000000,
+    "total_assets": 1005881,
+    "return_pct": 0.59,
+    "topix_return_pct": null,
+    "record_days": 2
+  },
+  "learning": {
+    "evaluated_predictions": 0,
+    "direction_hit_rate": null,
+    "current_experiment": "ランキング上位銘柄を仮想口座で追跡し、10・20・40営業日の成績を比較します。",
+    "finding": "評価済み予想が0件で、安定した比較に必要な30件へ届いていません。",
+    "next_experiment": "評価件数が30件以上になるまで記録を継続"
+  },
+  "candidates": [
+    {
+      "security_code": "5726",
+      "stock_name": "大阪チタニウムテクノロジーズ",
+      "market": "プライム",
+      "score": 100,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "196A",
+      "stock_name": "ＭＦＳ",
+      "market": "グロース",
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "7637",
+      "stock_name": "白銅",
+      "market": "プライム",
+      "score": 98,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "7745",
+      "stock_name": "Ａ＆Ｄホロンホールディングス",
+      "market": "プライム",
+      "score": 95,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "7072",
+      "stock_name": "インティメート・マージャー",
+      "market": "グロース",
+      "score": 95,
+      "judgment": "強い買い候補"
+    }
+  ],
+  "assumptions": {
+    "round_trip_cost_pct": 0.2,
+    "default_holding_days": 20
+  }
+}
