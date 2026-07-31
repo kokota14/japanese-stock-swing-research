@@ -36,11 +36,6 @@ page = st.navigation(
             default=True,
         ),
         st.Page(
-            "app_pages/weekly_report.py",
-            title="週次の検証記録",
-            icon=":material/article:",
-        ),
-        st.Page(
             "app_pages/methodology.py",
             title="検証方法",
             icon=":material/science:",

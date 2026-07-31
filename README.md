@@ -60,5 +60,4 @@ python verify_public_release.py
 ## 現在の画面
 
 - 学習ダッシュボード
-- 週次の検証記録
 - 検証方法
