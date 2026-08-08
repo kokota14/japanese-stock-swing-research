@@ -26,6 +26,7 @@ FORBIDDEN_TEXT = {
 }
 EXPECTED_KEYS = {
     "updated_at",
+    "data_date",
     "data_source",
     "model_version",
     "market",
