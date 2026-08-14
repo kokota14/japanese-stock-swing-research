@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-13 18:54",
-  "data_date": "2026-08-13",
+  "updated_at": "2026-08-14 19:17",
+  "data_date": "2026-08-14",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,52 +10,52 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1027844,
-    "return_pct": 2.78,
+    "total_assets": 1033769,
+    "return_pct": 3.38,
     "topix_return_pct": null,
-    "record_days": 10
+    "record_days": 11
   },
   "learning": {
-    "evaluated_predictions": 8,
+    "evaluated_predictions": 13,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "評価済み予想が8件で、安定した比較に必要な30件へ届いていません。",
+    "finding": "評価済み予想が13件で、安定した比較に必要な30件へ届いていません。",
     "next_experiment": "評価件数が30件以上になるまで記録を継続"
   },
   "candidates": [
     {
-      "security_code": "6554",
-      "stock_name": "エスユーエス",
-      "market": "グロース",
+      "security_code": "2408",
+      "stock_name": "ＫＧ情報",
+      "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "3920",
-      "stock_name": "アイビーシー",
+      "security_code": "5464",
+      "stock_name": "モリ工業",
       "market": "スタンダード",
-      "score": 96,
+      "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "7463",
-      "stock_name": "アドヴァングループ",
-      "market": "スタンダード",
-      "score": 95,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "6630",
-      "stock_name": "ヤーマン",
+      "security_code": "4301",
+      "stock_name": "アミューズ",
       "market": "プライム",
-      "score": 95,
+      "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "3293",
-      "stock_name": "アズマハウス",
+      "security_code": "2935",
+      "stock_name": "ピックルスホールディングス",
+      "market": "プライム",
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "9760",
+      "stock_name": "進学会ホールディングス",
       "market": "スタンダード",
-      "score": 95,
+      "score": 99,
       "judgment": "強い買い候補"
     }
   ],
