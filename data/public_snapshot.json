@@ -1,61 +1,61 @@
 {
-  "updated_at": "2026-08-14 19:17",
-  "data_date": "2026-08-14",
+  "updated_at": "2026-08-17 21:06",
+  "data_date": "2026-08-17",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
-    "score": 80,
+    "score": 90,
     "judgment": "攻め相場",
     "cash_ratio": 20
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1033769,
-    "return_pct": 3.38,
+    "total_assets": 1028689,
+    "return_pct": 2.87,
     "topix_return_pct": null,
-    "record_days": 11
+    "record_days": 12
   },
   "learning": {
-    "evaluated_predictions": 13,
+    "evaluated_predictions": 18,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "評価済み予想が13件で、安定した比較に必要な30件へ届いていません。",
+    "finding": "評価済み予想が18件で、安定した比較に必要な30件へ届いていません。",
     "next_experiment": "評価件数が30件以上になるまで記録を継続"
   },
   "candidates": [
     {
-      "security_code": "2408",
-      "stock_name": "ＫＧ情報",
-      "market": "スタンダード",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "5464",
-      "stock_name": "モリ工業",
-      "market": "スタンダード",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "4301",
-      "stock_name": "アミューズ",
+      "security_code": "3221",
+      "stock_name": "ヨシックスホールディングス",
       "market": "プライム",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "2935",
-      "stock_name": "ピックルスホールディングス",
-      "market": "プライム",
-      "score": 99,
+      "security_code": "9213",
+      "stock_name": "セイファート",
+      "market": "スタンダード",
+      "score": 96,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "9760",
-      "stock_name": "進学会ホールディングス",
+      "security_code": "3123",
+      "stock_name": "サイボー",
       "market": "スタンダード",
-      "score": 99,
+      "score": 95,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "3608",
+      "stock_name": "ＴＳＩホールディングス",
+      "market": "プライム",
+      "score": 95,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "7292",
+      "stock_name": "村上開明堂",
+      "market": "スタンダード",
+      "score": 94,
       "judgment": "強い買い候補"
     }
   ],
