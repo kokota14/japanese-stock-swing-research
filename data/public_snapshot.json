@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-08-20 20:38",
-  "data_date": "2026-08-20",
+  "updated_at": "2026-08-21 21:35",
+  "data_date": "2026-08-21",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
-    "score": 80,
-    "judgment": "攻め相場",
-    "cash_ratio": 20
+    "score": 60,
+    "judgment": "やや強気",
+    "cash_ratio": 35
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1022063,
-    "return_pct": 2.21,
+    "total_assets": 1025809,
+    "return_pct": 2.58,
     "topix_return_pct": null,
-    "record_days": 15
+    "record_days": 16
   },
   "learning": {
     "evaluated_predictions": 18,
@@ -24,43 +24,43 @@
   },
   "candidates": [
     {
-      "security_code": "4284",
-      "stock_name": "ソルクシーズ",
+      "security_code": "9159",
+      "stock_name": "Ｗ　ＴＯＫＹＯ",
+      "market": "グロース",
+      "score": 95,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "1407",
+      "stock_name": "ウエストホールディングス",
       "market": "スタンダード",
-      "score": 99,
+      "score": 95,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "2685",
-      "stock_name": "アンドエスティＨＤ",
+      "security_code": "7085",
+      "stock_name": "カーブスホールディングス",
       "market": "プライム",
-      "score": 99,
+      "score": 95,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "7049",
-      "stock_name": "識学",
+      "security_code": "2497",
+      "stock_name": "ユナイテッド",
       "market": "グロース",
-      "score": 99,
+      "score": 95,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "9204",
-      "stock_name": "スカイマーク",
-      "market": "グロース",
-      "score": 98,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "4568",
-      "stock_name": "第一三共",
-      "market": "プライム",
+      "security_code": "9046",
+      "stock_name": "神戸電鉄",
+      "market": "スタンダード",
       "score": 95,
       "judgment": "強い買い候補"
     }
   ],
   "assumptions": {
     "round_trip_cost_pct": 0.2,
-    "default_holding_days": 20
+    "default_holding_days": 40
   }
 }
