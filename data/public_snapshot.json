@@ -1,61 +1,61 @@
 {
-  "updated_at": "2026-08-21 21:35",
-  "data_date": "2026-08-21",
+  "updated_at": "2026-08-25 21:00",
+  "data_date": "2026-08-25",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
-    "score": 60,
+    "score": 70,
     "judgment": "やや強気",
     "cash_ratio": 35
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1025809,
-    "return_pct": 2.58,
+    "total_assets": 1030010,
+    "return_pct": 3.0,
     "topix_return_pct": null,
-    "record_days": 16
+    "record_days": 18
   },
   "learning": {
-    "evaluated_predictions": 18,
+    "evaluated_predictions": 35,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "評価済み予想が18件で、安定した比較に必要な30件へ届いていません。",
-    "next_experiment": "評価件数が30件以上になるまで記録を継続"
+    "finding": "十分な件数で差が確認できる条件がありません。",
+    "next_experiment": "評価データを継続して蓄積"
   },
   "candidates": [
     {
-      "security_code": "9159",
-      "stock_name": "Ｗ　ＴＯＫＹＯ",
+      "security_code": "6186",
+      "stock_name": "一蔵",
+      "market": "スタンダード",
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "288A",
+      "stock_name": "ラクサス・テクノロジーズ",
       "market": "グロース",
       "score": 95,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "1407",
-      "stock_name": "ウエストホールディングス",
+      "security_code": "3536",
+      "stock_name": "アクサスホールディングス",
       "market": "スタンダード",
       "score": 95,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "7085",
-      "stock_name": "カーブスホールディングス",
-      "market": "プライム",
-      "score": 95,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "2497",
-      "stock_name": "ユナイテッド",
-      "market": "グロース",
-      "score": 95,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "9046",
-      "stock_name": "神戸電鉄",
+      "security_code": "5576",
+      "stock_name": "オービーシステム",
       "market": "スタンダード",
-      "score": 95,
+      "score": 94,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "3768",
+      "stock_name": "リスクモンスター",
+      "market": "スタンダード",
+      "score": 94,
       "judgment": "強い買い候補"
     }
   ],
