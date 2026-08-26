@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-25 21:00",
-  "data_date": "2026-08-25",
+  "updated_at": "2026-08-26 18:43",
+  "data_date": "2026-08-26",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,52 +10,52 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1030010,
-    "return_pct": 3.0,
+    "total_assets": 1029547,
+    "return_pct": 2.95,
     "topix_return_pct": null,
-    "record_days": 18
+    "record_days": 19
   },
   "learning": {
-    "evaluated_predictions": 35,
+    "evaluated_predictions": 45,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "十分な件数で差が確認できる条件がありません。",
-    "next_experiment": "評価データを継続して蓄積"
+    "finding": "28件で平均+0.21%、勝率71.4%です。",
+    "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "6186",
-      "stock_name": "一蔵",
+      "security_code": "7472",
+      "stock_name": "鳥羽洋行",
+      "market": "スタンダード",
+      "score": 100,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "4237",
+      "stock_name": "フジプレアム",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "288A",
-      "stock_name": "ラクサス・テクノロジーズ",
+      "security_code": "9214",
+      "stock_name": "Ｒｅｃｏｖｅｒｙ　Ｉｎｔｅｒｎａｔｉｏｎａｌ",
       "market": "グロース",
-      "score": 95,
+      "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "3536",
-      "stock_name": "アクサスホールディングス",
+      "security_code": "6233",
+      "stock_name": "ＫＬＡＳＳ",
       "market": "スタンダード",
-      "score": 95,
+      "score": 96,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "5576",
-      "stock_name": "オービーシステム",
+      "security_code": "7539",
+      "stock_name": "アイナボホールディングス",
       "market": "スタンダード",
-      "score": 94,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "3768",
-      "stock_name": "リスクモンスター",
-      "market": "スタンダード",
-      "score": 94,
+      "score": 96,
       "judgment": "強い買い候補"
     }
   ],
