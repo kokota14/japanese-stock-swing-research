@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-28 22:05",
-  "data_date": "2026-08-28",
+  "updated_at": "2026-08-31 19:44",
+  "data_date": "2026-08-31",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,52 +10,52 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1023990,
-    "return_pct": 2.4,
+    "total_assets": 1026365,
+    "return_pct": 2.64,
     "topix_return_pct": null,
-    "record_days": 21
+    "record_days": 22
   },
   "learning": {
-    "evaluated_predictions": 70,
+    "evaluated_predictions": 80,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "32件で平均+0.38%、勝率78.1%です。",
+    "finding": "37件で平均+0.73%、勝率81.1%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "2370",
-      "stock_name": "メディネット",
+      "security_code": "298A",
+      "stock_name": "ＧＶＡ　ＴＥＣＨ",
       "market": "グロース",
-      "score": 96,
+      "score": 100,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "8316",
-      "stock_name": "三井住友フィナンシャルグループ",
-      "market": "プライム",
-      "score": 95,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "8331",
-      "stock_name": "千葉銀行",
-      "market": "プライム",
-      "score": 95,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "9760",
-      "stock_name": "進学会ホールディングス",
+      "security_code": "4439",
+      "stock_name": "東名",
       "market": "スタンダード",
-      "score": 95,
+      "score": 100,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "7506",
-      "stock_name": "ハウス　オブ　ローゼ",
+      "security_code": "4027",
+      "stock_name": "テイカ",
+      "market": "プライム",
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "4299",
+      "stock_name": "ハイマックス",
       "market": "スタンダード",
-      "score": 95,
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "4391",
+      "stock_name": "ロジザード",
+      "market": "グロース",
+      "score": 99,
       "judgment": "強い買い候補"
     }
   ],
