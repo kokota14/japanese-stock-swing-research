@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-31 21:00",
-  "data_date": "2026-08-31",
+  "updated_at": "2026-09-01 19:10",
+  "data_date": "2026-09-01",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,13 +10,13 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1026365,
-    "return_pct": 2.64,
+    "total_assets": 1025865,
+    "return_pct": 2.59,
     "topix_return_pct": null,
-    "record_days": 22
+    "record_days": 23
   },
   "learning": {
-    "evaluated_predictions": 80,
+    "evaluated_predictions": 85,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
     "finding": "37件で平均+0.73%、勝率81.1%です。",
@@ -24,38 +24,38 @@
   },
   "candidates": [
     {
-      "security_code": "298A",
-      "stock_name": "ＧＶＡ　ＴＥＣＨ",
-      "market": "グロース",
-      "score": 100,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "4439",
-      "stock_name": "東名",
+      "security_code": "9976",
+      "stock_name": "セキチュー",
       "market": "スタンダード",
       "score": 100,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "4027",
-      "stock_name": "テイカ",
+      "security_code": "3315",
+      "stock_name": "日本コークス工業",
       "market": "プライム",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "4299",
-      "stock_name": "ハイマックス",
+      "security_code": "9679",
+      "stock_name": "ホウライ",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "4391",
-      "stock_name": "ロジザード",
-      "market": "グロース",
-      "score": 99,
+      "security_code": "6535",
+      "stock_name": "アイモバイル",
+      "market": "プライム",
+      "score": 96,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "5406",
+      "stock_name": "神戸製鋼所",
+      "market": "プライム",
+      "score": 95,
       "judgment": "強い買い候補"
     }
   ],
