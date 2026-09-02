@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-09-01 21:00",
-  "data_date": "2026-09-01",
+  "updated_at": "2026-09-02 19:19",
+  "data_date": "2026-09-02",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
-    "score": 80,
-    "judgment": "攻め相場",
-    "cash_ratio": 20
+    "score": 60,
+    "judgment": "やや強気",
+    "cash_ratio": 35
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1025865,
-    "return_pct": 2.59,
+    "total_assets": 1022446,
+    "return_pct": 2.24,
     "topix_return_pct": null,
-    "record_days": 23
+    "record_days": 24
   },
   "learning": {
-    "evaluated_predictions": 85,
+    "evaluated_predictions": 90,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
     "finding": "37件で平均+0.73%、勝率81.1%です。",
@@ -24,38 +24,38 @@
   },
   "candidates": [
     {
-      "security_code": "9976",
-      "stock_name": "セキチュー",
+      "security_code": "7791",
+      "stock_name": "ドリームベッド",
       "market": "スタンダード",
-      "score": 100,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "3315",
-      "stock_name": "日本コークス工業",
-      "market": "プライム",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "9679",
-      "stock_name": "ホウライ",
-      "market": "スタンダード",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "6535",
-      "stock_name": "アイモバイル",
-      "market": "プライム",
       "score": 96,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "5406",
-      "stock_name": "神戸製鋼所",
-      "market": "プライム",
-      "score": 95,
+      "security_code": "8202",
+      "stock_name": "ラオックスホールディングス",
+      "market": "スタンダード",
+      "score": 96,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "4664",
+      "stock_name": "アール・エス・シー",
+      "market": "スタンダード",
+      "score": 94,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "9904",
+      "stock_name": "ベリテ",
+      "market": "スタンダード",
+      "score": 94,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "4558",
+      "stock_name": "中京医薬品",
+      "market": "スタンダード",
+      "score": 94,
       "judgment": "強い買い候補"
     }
   ],
