@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-09-03 21:00",
-  "data_date": "2026-09-03",
+  "updated_at": "2026-09-04 20:02",
+  "data_date": "2026-09-04",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
-    "score": 70,
+    "score": 60,
     "judgment": "やや強気",
     "cash_ratio": 35
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1015974,
-    "return_pct": 1.6,
+    "total_assets": 1021569,
+    "return_pct": 2.16,
     "topix_return_pct": null,
-    "record_days": 25
+    "record_days": 26
   },
   "learning": {
-    "evaluated_predictions": 95,
+    "evaluated_predictions": 100,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
     "finding": "37件で平均+0.73%、勝率81.1%です。",
@@ -24,36 +24,36 @@
   },
   "candidates": [
     {
-      "security_code": "3349",
-      "stock_name": "コスモス薬品",
-      "market": "プライム",
-      "score": 100,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "3143",
-      "stock_name": "オーウイル",
+      "security_code": "5817",
+      "stock_name": "ＪＭＡＣＳ",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "9353",
-      "stock_name": "櫻島埠頭",
-      "market": "スタンダード",
-      "score": 96,
+      "security_code": "6620",
+      "stock_name": "宮越ホールディングス",
+      "market": "プライム",
+      "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "5406",
-      "stock_name": "神戸製鋼所",
-      "market": "プライム",
+      "security_code": "9017",
+      "stock_name": "新潟交通",
+      "market": "スタンダード",
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "350A",
+      "stock_name": "デジタルグリッド",
+      "market": "グロース",
       "score": 95,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "6770",
-      "stock_name": "アルプスアルパイン",
+      "security_code": "4064",
+      "stock_name": "日本カーバイド工業",
       "market": "プライム",
       "score": 94,
       "judgment": "強い買い候補"
