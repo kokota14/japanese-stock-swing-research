@@ -1,60 +1,60 @@
 {
-  "updated_at": "2026-09-04 20:02",
-  "data_date": "2026-09-04",
+  "updated_at": "2026-09-07 20:08",
+  "data_date": "2026-09-07",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
-    "score": 60,
-    "judgment": "やや強気",
-    "cash_ratio": 35
+    "score": 80,
+    "judgment": "攻め相場",
+    "cash_ratio": 20
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1021569,
-    "return_pct": 2.16,
+    "total_assets": 1023014,
+    "return_pct": 2.3,
     "topix_return_pct": null,
-    "record_days": 26
+    "record_days": 27
   },
   "learning": {
-    "evaluated_predictions": 100,
+    "evaluated_predictions": 112,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "37件で平均+0.73%、勝率81.1%です。",
+    "finding": "69件で平均+0.69%、勝率72.5%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "5817",
-      "stock_name": "ＪＭＡＣＳ",
-      "market": "スタンダード",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "6620",
-      "stock_name": "宮越ホールディングス",
+      "security_code": "6332",
+      "stock_name": "月島ホールディングス",
       "market": "プライム",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "9017",
-      "stock_name": "新潟交通",
-      "market": "スタンダード",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "350A",
-      "stock_name": "デジタルグリッド",
-      "market": "グロース",
       "score": 95,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "4064",
-      "stock_name": "日本カーバイド工業",
-      "market": "プライム",
+      "security_code": "4620",
+      "stock_name": "藤倉化成",
+      "market": "スタンダード",
+      "score": 94,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "5026",
+      "stock_name": "トリプルアイズ",
+      "market": "グロース",
+      "score": 94,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "6037",
+      "stock_name": "楽待",
+      "market": "スタンダード",
+      "score": 94,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "6159",
+      "stock_name": "ミクロン精密",
+      "market": "スタンダード",
       "score": 94,
       "judgment": "強い買い候補"
     }
