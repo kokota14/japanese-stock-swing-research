@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-08 20:50",
-  "data_date": "2026-09-08",
+  "updated_at": "2026-09-09 20:44",
+  "data_date": "2026-09-09",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,50 +10,50 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1016051,
-    "return_pct": 1.61,
+    "total_assets": 1014952,
+    "return_pct": 1.5,
     "topix_return_pct": null,
-    "record_days": 28
+    "record_days": 29
   },
   "learning": {
-    "evaluated_predictions": 126,
+    "evaluated_predictions": 136,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "48件で平均+0.73%、勝率81.2%です。",
+    "finding": "53件で平均+0.74%、勝率79.2%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "2726",
-      "stock_name": "パルグループホールディングス",
-      "market": "プライム",
+      "security_code": "2425",
+      "stock_name": "ケアサービス",
+      "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "4372",
-      "stock_name": "ユミルリンク",
-      "market": "グロース",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "2215",
-      "stock_name": "第一屋製パン",
+      "security_code": "9365",
+      "stock_name": "トレーディア",
       "market": "スタンダード",
       "score": 94,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "4705",
-      "stock_name": "クリップコーポレーション",
+      "security_code": "7292",
+      "stock_name": "村上開明堂",
       "market": "スタンダード",
       "score": 94,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "7506",
-      "stock_name": "ハウス　オブ　ローゼ",
+      "security_code": "4231",
+      "stock_name": "タイガースポリマー",
+      "market": "スタンダード",
+      "score": 94,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "5071",
+      "stock_name": "ヴィス",
       "market": "スタンダード",
       "score": 94,
       "judgment": "強い買い候補"
