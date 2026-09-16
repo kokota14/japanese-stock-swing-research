@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-15 21:28",
-  "data_date": "2026-09-15",
+  "updated_at": "2026-09-16 23:22",
+  "data_date": "2026-09-16",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,52 +10,52 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1001081,
-    "return_pct": 0.11,
+    "total_assets": 1004184,
+    "return_pct": 0.42,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 176,
+    "evaluated_predictions": 186,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "73件で平均+0.60%、勝率75.3%です。",
+    "finding": "78件で平均+0.60%、勝率74.4%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "8769",
-      "stock_name": "アドバンテッジリスクマネジメント",
+      "security_code": "244A",
+      "stock_name": "グロースエクスパートナーズ",
+      "market": "グロース",
+      "score": 100,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "1967",
+      "stock_name": "ヤマト",
       "market": "スタンダード",
       "score": 100,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "3248",
-      "stock_name": "アールエイジ",
+      "security_code": "7434",
+      "stock_name": "オータケ",
       "market": "スタンダード",
       "score": 100,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "3955",
-      "stock_name": "イムラ",
+      "security_code": "7791",
+      "stock_name": "ドリームベッド",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "9635",
-      "stock_name": "武蔵野興業",
-      "market": "スタンダード",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "92025",
-      "stock_name": "ＡＮＡホールディングス第１回社債型種類株式",
+      "security_code": "8366",
+      "stock_name": "滋賀銀行",
       "market": "プライム",
-      "score": 99,
+      "score": 95,
       "judgment": "強い買い候補"
     }
   ],
