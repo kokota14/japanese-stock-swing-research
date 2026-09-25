@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-24 19:45",
-  "data_date": "2026-09-24",
+  "updated_at": "2026-09-25 18:58",
+  "data_date": "2026-09-25",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,51 +10,51 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1003675,
-    "return_pct": 0.37,
+    "total_assets": 1006942,
+    "return_pct": 0.69,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 217,
+    "evaluated_predictions": 236,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "94件で平均+0.61%、勝率72.3%です。",
+    "finding": "108件で平均+0.41%、勝率68.5%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "6928",
-      "stock_name": "エノモト",
+      "security_code": "3372",
+      "stock_name": "関門海",
       "market": "スタンダード",
       "score": 100,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "6393",
-      "stock_name": "油研工業",
+      "security_code": "4356",
+      "stock_name": "応用技術",
       "market": "スタンダード",
-      "score": 100,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "6752",
-      "stock_name": "パナソニック　ホールディングス",
-      "market": "プライム",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "7267",
-      "stock_name": "本田技研工業",
-      "market": "プライム",
+      "security_code": "3437",
+      "stock_name": "特殊電極",
+      "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "4490",
-      "stock_name": "ビザスク",
-      "market": "グロース",
+      "security_code": "2993",
+      "stock_name": "長栄",
+      "market": "スタンダード",
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "2922",
+      "stock_name": "なとり",
+      "market": "プライム",
       "score": 99,
       "judgment": "強い買い候補"
     }
