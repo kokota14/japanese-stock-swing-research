@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-29 18:45",
-  "data_date": "2026-09-29",
+  "updated_at": "2026-09-30 19:12",
+  "data_date": "2026-09-30",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,52 +10,52 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1007600,
-    "return_pct": 0.76,
+    "total_assets": 1006181,
+    "return_pct": 0.62,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 261,
+    "evaluated_predictions": 275,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "118件で平均+0.40%、勝率67.8%です。",
+    "finding": "123件で平均+0.36%、勝率66.7%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "7857",
-      "stock_name": "セキ",
-      "market": "スタンダード",
-      "score": 100,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "7031",
-      "stock_name": "インバウンドテック",
+      "security_code": "3900",
+      "stock_name": "クラウドワークス",
       "market": "グロース",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "8025",
-      "stock_name": "ツカモトコーポレーション",
-      "market": "スタンダード",
+      "security_code": "6558",
+      "stock_name": "クックビズ",
+      "market": "グロース",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "3981",
-      "stock_name": "ビーグリー",
-      "market": "スタンダード",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "4763",
-      "stock_name": "クリーク・アンド・リバー社",
+      "security_code": "8411",
+      "stock_name": "みずほフィナンシャルグループ",
       "market": "プライム",
-      "score": 99,
+      "score": 95,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "5830",
+      "stock_name": "いよぎんホールディングス",
+      "market": "プライム",
+      "score": 95,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "8354",
+      "stock_name": "ふくおかフィナンシャルグループ",
+      "market": "プライム",
+      "score": 95,
       "judgment": "強い買い候補"
     }
   ],
