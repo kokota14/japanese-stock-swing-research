@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-30 19:12",
-  "data_date": "2026-09-30",
+  "updated_at": "2026-10-01 19:01",
+  "data_date": "2026-10-01",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,23 +10,23 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1006181,
-    "return_pct": 0.62,
+    "total_assets": 1008613,
+    "return_pct": 0.86,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 275,
+    "evaluated_predictions": 290,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "123件で平均+0.36%、勝率66.7%です。",
+    "finding": "15件で平均+1.88%、勝率86.7%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "3900",
-      "stock_name": "クラウドワークス",
-      "market": "グロース",
+      "security_code": "9766",
+      "stock_name": "コナミグループ",
+      "market": "プライム",
       "score": 99,
       "judgment": "強い買い候補"
     },
@@ -38,24 +38,24 @@
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "8411",
-      "stock_name": "みずほフィナンシャルグループ",
-      "market": "プライム",
-      "score": 95,
+      "security_code": "3848",
+      "stock_name": "データ・アプリケーション",
+      "market": "スタンダード",
+      "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "5830",
-      "stock_name": "いよぎんホールディングス",
+      "security_code": "8358",
+      "stock_name": "スルガ銀行",
       "market": "プライム",
-      "score": 95,
+      "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "8354",
-      "stock_name": "ふくおかフィナンシャルグループ",
-      "market": "プライム",
-      "score": 95,
+      "security_code": "6964",
+      "stock_name": "サンコー",
+      "market": "スタンダード",
+      "score": 99,
       "judgment": "強い買い候補"
     }
   ],
