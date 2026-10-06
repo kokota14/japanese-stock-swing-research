@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-05 18:46",
-  "data_date": "2026-10-05",
+  "updated_at": "2026-10-06 18:48",
+  "data_date": "2026-10-06",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,13 +10,13 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1014020,
-    "return_pct": 1.4,
+    "total_assets": 1019732,
+    "return_pct": 1.97,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 309,
+    "evaluated_predictions": 319,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
     "finding": "15件で平均+1.88%、勝率86.7%です。",
@@ -24,38 +24,38 @@
   },
   "candidates": [
     {
-      "security_code": "6643",
-      "stock_name": "戸上電機製作所",
+      "security_code": "3916",
+      "stock_name": "デジタル・インフォメーション・テクノロジー",
+      "market": "プライム",
+      "score": 100,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "4107",
+      "stock_name": "伊勢化学工業",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "9872",
-      "stock_name": "北恵",
-      "market": "スタンダード",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "6907",
-      "stock_name": "ジオマテック",
-      "market": "スタンダード",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "7072",
-      "stock_name": "インティメート・マージャー",
+      "security_code": "4476",
+      "stock_name": "ＡＩ　ＣＲＯＳＳ",
       "market": "グロース",
-      "score": 98,
+      "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "5162",
-      "stock_name": "朝日ラバー",
+      "security_code": "4386",
+      "stock_name": "ＳＩＧグループ",
       "market": "スタンダード",
-      "score": 95,
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "6165",
+      "stock_name": "パンチ工業",
+      "market": "スタンダード",
+      "score": 99,
       "judgment": "強い買い候補"
     }
   ],
