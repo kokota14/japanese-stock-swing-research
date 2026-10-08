@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-07 19:17",
-  "data_date": "2026-10-07",
+  "updated_at": "2026-10-08 19:12",
+  "data_date": "2026-10-08",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,52 +10,52 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1016336,
-    "return_pct": 1.63,
+    "total_assets": 1020597,
+    "return_pct": 2.06,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 329,
+    "evaluated_predictions": 345,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "15件で平均+1.88%、勝率86.7%です。",
+    "finding": "20件で平均+1.40%、勝率85.0%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "4362",
-      "stock_name": "日本精化",
-      "market": "プライム",
-      "score": 100,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "3498",
-      "stock_name": "霞ヶ関キャピタル",
-      "market": "プライム",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "9558",
-      "stock_name": "ジャパニアス",
-      "market": "グロース",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "6743",
-      "stock_name": "大同信号",
+      "security_code": "9213",
+      "stock_name": "セイファート",
       "market": "スタンダード",
-      "score": 99,
+      "score": 96,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "6797",
-      "stock_name": "名古屋電機工業",
+      "security_code": "4441",
+      "stock_name": "トビラシステムズ",
       "market": "スタンダード",
-      "score": 99,
+      "score": 95,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "3923",
+      "stock_name": "ラクス",
+      "market": "プライム",
+      "score": 95,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "5990",
+      "stock_name": "スーパーツール",
+      "market": "スタンダード",
+      "score": 94,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "3916",
+      "stock_name": "デジタル・インフォメーション・テクノロジー",
+      "market": "プライム",
+      "score": 94,
       "judgment": "強い買い候補"
     }
   ],
