@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14 19:38",
-  "data_date": "2026-10-14",
+  "updated_at": "2026-10-15 18:46",
+  "data_date": "2026-10-15",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,50 +10,50 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1018195,
-    "return_pct": 1.82,
+    "total_assets": 1015429,
+    "return_pct": 1.54,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 383,
+    "evaluated_predictions": 397,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "30件で平均+1.25%、勝率76.7%です。",
+    "finding": "35件で平均+0.97%、勝率74.3%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "3941",
-      "stock_name": "レンゴー",
+      "security_code": "8237",
+      "stock_name": "松屋",
       "market": "プライム",
-      "score": 100,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "245A",
-      "stock_name": "ＩＮＧＳ",
-      "market": "グロース",
-      "score": 100,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "3913",
-      "stock_name": "ＧｒｅｅｎＢｅｅ",
-      "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "3987",
-      "stock_name": "エコモット",
-      "market": "グロース",
+      "security_code": "4503",
+      "stock_name": "アステラス製薬",
+      "market": "プライム",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "156A",
-      "stock_name": "マテリアルグループ",
+      "security_code": "7102",
+      "stock_name": "日本車輌製造",
+      "market": "プライム",
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "2004",
+      "stock_name": "昭和産業",
+      "market": "プライム",
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "3479",
+      "stock_name": "ＴＫＰ",
       "market": "グロース",
       "score": 99,
       "judgment": "強い買い候補"
