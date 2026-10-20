@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-19 19:15",
-  "data_date": "2026-10-19",
+  "updated_at": "2026-10-20 19:29",
+  "data_date": "2026-10-20",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,52 +10,52 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1018666,
-    "return_pct": 1.87,
+    "total_assets": 1010514,
+    "return_pct": 1.05,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 425,
+    "evaluated_predictions": 440,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "45件で平均+0.79%、勝率73.3%です。",
+    "finding": "50件で平均+0.42%、勝率72.0%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "7808",
-      "stock_name": "シー・エス・ランバー",
+      "security_code": "3121",
+      "stock_name": "マーチャント・バンカーズ",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "3690",
-      "stock_name": "イルグルム",
+      "security_code": "6286",
+      "stock_name": "靜甲",
       "market": "スタンダード",
-      "score": 99,
+      "score": 95,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "5248",
-      "stock_name": "テクノロジーズ",
-      "market": "グロース",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "7939",
-      "stock_name": "研創",
-      "market": "スタンダード",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "4116",
-      "stock_name": "大日精化工業",
+      "security_code": "8237",
+      "stock_name": "松屋",
       "market": "プライム",
-      "score": 99,
+      "score": 94,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "5401",
+      "stock_name": "日本製鉄",
+      "market": "プライム",
+      "score": 94,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "5906",
+      "stock_name": "エムケー精工",
+      "market": "スタンダード",
+      "score": 94,
       "judgment": "強い買い候補"
     }
   ],
