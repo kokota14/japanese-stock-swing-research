@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23 21:16",
-  "data_date": "2026-10-23",
+  "updated_at": "2026-10-26 18:55",
+  "data_date": "2026-10-26",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,52 +10,52 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1012329,
-    "return_pct": 1.23,
+    "total_assets": 1014129,
+    "return_pct": 1.41,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 487,
+    "evaluated_predictions": 505,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "66件で平均+0.44%、勝率69.7%です。",
+    "finding": "75件で平均+0.16%、勝率65.3%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "7809",
-      "stock_name": "壽屋",
-      "market": "スタンダード",
-      "score": 100,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "8244",
-      "stock_name": "近鉄百貨店",
+      "security_code": "4274",
+      "stock_name": "細谷火工",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "1847",
-      "stock_name": "イチケン",
+      "security_code": "1939",
+      "stock_name": "四電工",
+      "market": "プライム",
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "3023",
+      "stock_name": "ラサ商事",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "3583",
-      "stock_name": "オーベクス",
+      "security_code": "2789",
+      "stock_name": "カルラ",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "2993",
-      "stock_name": "長栄",
-      "market": "スタンダード",
-      "score": 99,
+      "security_code": "6371",
+      "stock_name": "椿本チエイン",
+      "market": "プライム",
+      "score": 95,
       "judgment": "強い買い候補"
     }
   ],
