@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-27 18:45",
-  "data_date": "2026-10-27",
+  "updated_at": "2026-10-28 18:48",
+  "data_date": "2026-10-28",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,52 +10,52 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1013561,
-    "return_pct": 1.36,
+    "total_assets": 1012031,
+    "return_pct": 1.2,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 520,
+    "evaluated_predictions": 534,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "80件で平均+0.17%、勝率65.0%です。",
+    "finding": "85件で平均+0.13%、勝率64.7%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "4771",
-      "stock_name": "エフアンドエム",
+      "security_code": "2894",
+      "stock_name": "石井食品",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "9930",
-      "stock_name": "北沢産業",
-      "market": "スタンダード",
+      "security_code": "5244",
+      "stock_name": "ｊｉｇ．ｊｐ",
+      "market": "グロース",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "9220",
-      "stock_name": "エフビー介護サービス",
-      "market": "スタンダード",
-      "score": 99,
+      "security_code": "5572",
+      "stock_name": "Ｒｉｄｇｅ－ｉ",
+      "market": "グロース",
+      "score": 95,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "2747",
-      "stock_name": "北雄ラッキー",
-      "market": "スタンダード",
-      "score": 99,
+      "security_code": "4765",
+      "stock_name": "ＳＢＩグローバルアセットマネジメント",
+      "market": "プライム",
+      "score": 94,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "4619",
-      "stock_name": "日本特殊塗料",
+      "security_code": "4629",
+      "stock_name": "大伸化学",
       "market": "スタンダード",
-      "score": 98,
+      "score": 94,
       "judgment": "強い買い候補"
     }
   ],
