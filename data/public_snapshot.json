@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-28 18:48",
-  "data_date": "2026-10-28",
+  "updated_at": "2026-10-29 18:48",
+  "data_date": "2026-10-29",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,52 +10,52 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1012031,
-    "return_pct": 1.2,
+    "total_assets": 1011419,
+    "return_pct": 1.14,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 534,
+    "evaluated_predictions": 549,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "85件で平均+0.13%、勝率64.7%です。",
+    "finding": "90件で平均+0.10%、勝率63.3%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "2894",
-      "stock_name": "石井食品",
-      "market": "スタンダード",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "5244",
-      "stock_name": "ｊｉｇ．ｊｐ",
+      "security_code": "7370",
+      "stock_name": "Ｅｎｊｉｎ",
       "market": "グロース",
-      "score": 99,
+      "score": 100,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "5572",
-      "stock_name": "Ｒｉｄｇｅ－ｉ",
-      "market": "グロース",
-      "score": 95,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "4765",
-      "stock_name": "ＳＢＩグローバルアセットマネジメント",
+      "security_code": "9310",
+      "stock_name": "日本トランスシティ",
       "market": "プライム",
-      "score": 94,
+      "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "4629",
-      "stock_name": "大伸化学",
+      "security_code": "8050",
+      "stock_name": "セイコーグループ",
+      "market": "プライム",
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "2393",
+      "stock_name": "日本ケアサプライ",
       "market": "スタンダード",
-      "score": 94,
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "3537",
+      "stock_name": "昭栄薬品",
+      "market": "スタンダード",
+      "score": 99,
       "judgment": "強い買い候補"
     }
   ],
