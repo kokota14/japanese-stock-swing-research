@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-30 18:49",
-  "data_date": "2026-10-30",
+  "updated_at": "2026-11-02 18:49",
+  "data_date": "2026-11-02",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,52 +10,52 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1010648,
-    "return_pct": 1.06,
+    "total_assets": 1012274,
+    "return_pct": 1.23,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 563,
+    "evaluated_predictions": 577,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "244件で平均+0.03%、勝率58.6%です。",
+    "finding": "248件で平均-0.02%、勝率57.7%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "7979",
-      "stock_name": "松風",
-      "market": "プライム",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "9818",
-      "stock_name": "大丸エナウィン",
+      "security_code": "6629",
+      "stock_name": "テクノホライゾン",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "9720",
-      "stock_name": "ホテル、ニューグランド",
+      "security_code": "5214",
+      "stock_name": "日本電気硝子",
+      "market": "プライム",
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "9962",
+      "stock_name": "ミスミグループ本社",
+      "market": "プライム",
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "4979",
+      "stock_name": "ＯＡＴアグリオ",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "9795",
-      "stock_name": "ステップ",
-      "market": "プライム",
-      "score": 96,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "4552",
-      "stock_name": "ＪＣＲファーマ",
-      "market": "プライム",
-      "score": 95,
+      "security_code": "9872",
+      "stock_name": "北恵",
+      "market": "スタンダード",
+      "score": 99,
       "judgment": "強い買い候補"
     }
   ],
