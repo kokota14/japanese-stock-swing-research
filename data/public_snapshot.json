@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-09 18:46",
-  "data_date": "2026-11-09",
+  "updated_at": "2026-11-10 18:46",
+  "data_date": "2026-11-10",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,52 +10,52 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1008599,
-    "return_pct": 0.86,
+    "total_assets": 1010899,
+    "return_pct": 1.09,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 637,
+    "evaluated_predictions": 652,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "268件で平均-0.09%、勝率57.1%です。",
+    "finding": "273件で平均-0.06%、勝率57.9%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "6040",
-      "stock_name": "日本スキー場開発",
+      "security_code": "7094",
+      "stock_name": "ＮｅｘＴｏｎｅ",
       "market": "グロース",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "4483",
-      "stock_name": "ＪＭＤＣ",
+      "security_code": "7347",
+      "stock_name": "マーキュリアホールディングス",
       "market": "プライム",
-      "score": 94,
+      "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "3964",
-      "stock_name": "オークネット",
-      "market": "プライム",
-      "score": 94,
+      "security_code": "3205",
+      "stock_name": "ダイドーリミテッド",
+      "market": "スタンダード",
+      "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "9346",
-      "stock_name": "ココルポート",
-      "market": "グロース",
-      "score": 94,
+      "security_code": "9890",
+      "stock_name": "マキヤ",
+      "market": "スタンダード",
+      "score": 96,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "7683",
-      "stock_name": "ダブルエー",
-      "market": "プライム",
-      "score": 94,
+      "security_code": "3816",
+      "stock_name": "大和コンピューター",
+      "market": "スタンダード",
+      "score": 95,
       "judgment": "強い買い候補"
     }
   ],
