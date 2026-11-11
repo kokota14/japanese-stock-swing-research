@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10 18:46",
-  "data_date": "2026-11-10",
+  "updated_at": "2026-11-11 18:46",
+  "data_date": "2026-11-11",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,52 +10,52 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1010899,
-    "return_pct": 1.09,
+    "total_assets": 1012869,
+    "return_pct": 1.29,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 652,
+    "evaluated_predictions": 667,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "273件で平均-0.06%、勝率57.9%です。",
+    "finding": "259件で平均-0.09%、勝率61.8%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "7094",
-      "stock_name": "ＮｅｘＴｏｎｅ",
-      "market": "グロース",
-      "score": 99,
+      "security_code": "543A",
+      "stock_name": "ＡＲＣＨＩＯＮ",
+      "market": "プライム",
+      "score": 100,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "7347",
-      "stock_name": "マーキュリアホールディングス",
+      "security_code": "4116",
+      "stock_name": "大日精化工業",
       "market": "プライム",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "3205",
-      "stock_name": "ダイドーリミテッド",
+      "security_code": "8085",
+      "stock_name": "ナラサキ産業",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "9890",
-      "stock_name": "マキヤ",
+      "security_code": "6059",
+      "stock_name": "ウチヤマホールディングス",
       "market": "スタンダード",
-      "score": 96,
+      "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "3816",
-      "stock_name": "大和コンピューター",
-      "market": "スタンダード",
-      "score": 95,
+      "security_code": "3773",
+      "stock_name": "アドバンスト・メディア",
+      "market": "グロース",
+      "score": 96,
       "judgment": "強い買い候補"
     }
   ],
