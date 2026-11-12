@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11 18:46",
-  "data_date": "2026-11-11",
+  "updated_at": "2026-11-12 18:46",
+  "data_date": "2026-11-12",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,52 +10,52 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1012869,
+    "total_assets": 1012852,
     "return_pct": 1.29,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 667,
+    "evaluated_predictions": 682,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "259件で平均-0.09%、勝率61.8%です。",
+    "finding": "264件で平均-0.07%、勝率61.4%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "543A",
-      "stock_name": "ＡＲＣＨＩＯＮ",
-      "market": "プライム",
-      "score": 100,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "4116",
-      "stock_name": "大日精化工業",
-      "market": "プライム",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "8085",
-      "stock_name": "ナラサキ産業",
+      "security_code": "550A",
+      "stock_name": "ソフトテックス",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "6059",
-      "stock_name": "ウチヤマホールディングス",
+      "security_code": "4595",
+      "stock_name": "ミズホメディー",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "3773",
-      "stock_name": "アドバンスト・メディア",
+      "security_code": "558A",
+      "stock_name": "ＳＱＵＥＥＺＥ",
       "market": "グロース",
-      "score": 96,
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "500A",
+      "stock_name": "ＴＯブックス",
+      "market": "スタンダード",
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "7975",
+      "stock_name": "リヒトラブ",
+      "market": "スタンダード",
+      "score": 99,
       "judgment": "強い買い候補"
     }
   ],
