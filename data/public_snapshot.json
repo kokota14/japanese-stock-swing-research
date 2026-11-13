@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12 18:46",
-  "data_date": "2026-11-12",
+  "updated_at": "2026-11-13 18:47",
+  "data_date": "2026-11-13",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,51 +10,51 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1012852,
-    "return_pct": 1.29,
+    "total_assets": 1013837,
+    "return_pct": 1.38,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 682,
+    "evaluated_predictions": 696,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "264件で平均-0.07%、勝率61.4%です。",
+    "finding": "269件で平均-0.05%、勝率61.3%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "550A",
-      "stock_name": "ソフトテックス",
+      "security_code": "4360",
+      "stock_name": "マナック・ケミカル・パートナーズ",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "4595",
-      "stock_name": "ミズホメディー",
-      "market": "スタンダード",
+      "security_code": "2269",
+      "stock_name": "明治ホールディングス",
+      "market": "プライム",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "558A",
-      "stock_name": "ＳＱＵＥＥＺＥ",
+      "security_code": "3099",
+      "stock_name": "三越伊勢丹ホールディングス",
+      "market": "プライム",
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "8130",
+      "stock_name": "サンゲツ",
+      "market": "プライム",
+      "score": 99,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "192A",
+      "stock_name": "インテグループ",
       "market": "グロース",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "500A",
-      "stock_name": "ＴＯブックス",
-      "market": "スタンダード",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "7975",
-      "stock_name": "リヒトラブ",
-      "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     }
