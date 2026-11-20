@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-19 19:16",
-  "data_date": "2026-11-19",
+  "updated_at": "2026-11-20 18:48",
+  "data_date": "2026-11-20",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,50 +10,50 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1011269,
-    "return_pct": 1.13,
+    "total_assets": 1006847,
+    "return_pct": 0.68,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 754,
+    "evaluated_predictions": 769,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "288件で平均-0.19%、勝率59.7%です。",
+    "finding": "293件で平均-0.18%、勝率60.1%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "4884",
-      "stock_name": "クリングルファーマ",
-      "market": "グロース",
-      "score": 94,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "367A",
-      "stock_name": "プリモグローバルホールディングス",
+      "security_code": "5971",
+      "stock_name": "共和工業所",
       "market": "スタンダード",
       "score": 94,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "9087",
-      "stock_name": "タカセ",
+      "security_code": "3708",
+      "stock_name": "特種東海製紙",
+      "market": "プライム",
+      "score": 94,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "2796",
+      "stock_name": "ファーマライズホールディングス",
       "market": "スタンダード",
       "score": 94,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "3490",
-      "stock_name": "アズ企画設計",
+      "security_code": "6044",
+      "stock_name": "三機サービス",
       "market": "スタンダード",
       "score": 94,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "9060",
-      "stock_name": "日本ロジテム",
+      "security_code": "9853",
+      "stock_name": "銀座ルノアール",
       "market": "スタンダード",
       "score": 94,
       "judgment": "強い買い候補"
