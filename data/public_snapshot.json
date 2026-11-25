@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-24 18:49",
-  "data_date": "2026-11-24",
+  "updated_at": "2026-11-25 19:48",
+  "data_date": "2026-11-25",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,52 +10,52 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1006154,
-    "return_pct": 0.62,
+    "total_assets": 1005254,
+    "return_pct": 0.53,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 785,
+    "evaluated_predictions": 799,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "298件で平均-0.22%、勝率59.4%です。",
+    "finding": "303件で平均-0.19%、勝率60.1%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "1997",
-      "stock_name": "暁飯島工業",
+      "security_code": "9419",
+      "stock_name": "ワイヤレスゲート",
       "market": "スタンダード",
       "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "4197",
-      "stock_name": "アスマーク",
+      "security_code": "3560",
+      "stock_name": "ほぼ日",
       "market": "スタンダード",
-      "score": 94,
+      "score": 99,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "4534",
-      "stock_name": "持田製薬",
+      "security_code": "7846",
+      "stock_name": "パイロットコーポレーション",
       "market": "プライム",
-      "score": 94,
+      "score": 95,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "3187",
-      "stock_name": "ミラタップ",
-      "market": "グロース",
-      "score": 92,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "6772",
-      "stock_name": "東京コスモス電機",
+      "security_code": "3068",
+      "stock_name": "ＷＤＩ",
       "market": "スタンダード",
-      "score": 91,
+      "score": 95,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "6322",
+      "stock_name": "タクミナ",
+      "market": "スタンダード",
+      "score": 94,
       "judgment": "強い買い候補"
     }
   ],
