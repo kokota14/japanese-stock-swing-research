@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-25 19:48",
-  "data_date": "2026-11-25",
+  "updated_at": "2026-11-26 18:48",
+  "data_date": "2026-11-26",
   "data_source": "Yahoo Finance（yfinance）",
   "model_version": "公開版 0.2",
   "market": {
@@ -10,50 +10,50 @@
   },
   "paper_portfolio": {
     "initial_capital": 1000000,
-    "total_assets": 1005254,
-    "return_pct": 0.53,
+    "total_assets": 1000693,
+    "return_pct": 0.07,
     "topix_return_pct": null,
     "record_days": 31
   },
   "learning": {
-    "evaluated_predictions": 799,
+    "evaluated_predictions": 814,
     "direction_hit_rate": null,
     "current_experiment": "短期モデルと中期モデルの候補を、それぞれの仮想口座で20営業日保有し、成績を検証します。",
-    "finding": "303件で平均-0.19%、勝率60.1%です。",
+    "finding": "308件で平均-0.21%、勝率59.7%です。",
     "next_experiment": "学習期間と検証期間の両方で再現するか確認"
   },
   "candidates": [
     {
-      "security_code": "9419",
-      "stock_name": "ワイヤレスゲート",
-      "market": "スタンダード",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "3560",
-      "stock_name": "ほぼ日",
-      "market": "スタンダード",
-      "score": 99,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "7846",
-      "stock_name": "パイロットコーポレーション",
-      "market": "プライム",
-      "score": 95,
-      "judgment": "強い買い候補"
-    },
-    {
-      "security_code": "3068",
-      "stock_name": "ＷＤＩ",
+      "security_code": "4174",
+      "stock_name": "アピリッツ",
       "market": "スタンダード",
       "score": 95,
       "judgment": "強い買い候補"
     },
     {
-      "security_code": "6322",
-      "stock_name": "タクミナ",
+      "security_code": "2300",
+      "stock_name": "きょくとう",
+      "market": "スタンダード",
+      "score": 95,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "244A",
+      "stock_name": "グロースエクスパートナーズ",
+      "market": "グロース",
+      "score": 94,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "9220",
+      "stock_name": "エフビー介護サービス",
+      "market": "スタンダード",
+      "score": 94,
+      "judgment": "強い買い候補"
+    },
+    {
+      "security_code": "3768",
+      "stock_name": "リスクモンスター",
       "market": "スタンダード",
       "score": 94,
       "judgment": "強い買い候補"
